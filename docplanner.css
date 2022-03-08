@@ -1,0 +1,408 @@
+
+/* ceci est la barre de navigation*/
+
+body{
+    font-weight: 400;
+    font-family: Arial,sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    background-color: white;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width:1268.8px;
+}
+#logo {
+    width: 268px;
+    height: 33px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+#list{
+    display: flex;
+    list-style-type: none;
+    color: #ababab;
+    font-size: .9375rem;
+    font-weight: 400;
+    padding-top: 10px;
+    
+}
+#barre li{
+    font-size: 20px;
+    margin-right: 20px;
+    text-align:center;
+}
+#about-us{
+    color: #00b39b;
+}
+
+/* ceci est la fin de la barre de navigation*/
+
+/*ceci est le debut de la page */
+
+#logo2{
+    margin-left: 100px;
+    padding-top: 10%;
+}
+
+#part0{
+    margin-bottom: 50px;
+}
+
+#part1 h1{
+    font-size: 2.125rem;
+    font-weight: 300;
+    line-height: 2em;
+    color:#00b39b ;
+    font-family: 'Work Sans',Arial,sans-serif;
+}
+
+#part1{
+    text-align: center;
+}
+
+#part2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#part2 p{
+    font-size: 20px;
+}
+
+/* ceci est la fin du debut de la page*/
+
+/*ceci est le debut de la deusieme partie*/
+
+#zero{
+    display: flex;
+    height: 995px;
+    height: 365px;
+    justify-content: center;
+}
+
+.first{
+    background-color: #00b39b;
+    border-radius: 10px;
+    height:365px ;
+    width: 331.63px;
+    margin-right: 20px;
+
+}
+
+.firstspan1{
+    height: 247.63px;
+    width:158.2px ;
+}
+
+.firstspan1 h2{
+    font-size: 1.875rem;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-top: 10px;
+    
+}
+
+.firstspan1 p{
+    color: #fff;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    line-height: 1.2;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+
+.firstspan1 img{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.firstspan2{
+    height: 40px;
+    width: 172.8px;
+    margin-left: 30px;
+}
+
+.second{
+    background-color: #3d83df;
+    border-radius: 10px;
+    height:365px ;
+    width: 331.63px;
+    margin-right: 20px;
+}
+
+.second p{
+    color: #fff;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    line-height: 1.2;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+
+.second h2{
+    font-size: 1.875rem;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-top: 10px;
+}
+
+.second img{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.third{
+    background-color: #1b2734;
+    border-radius: 10px;
+    height:365px ;
+    width: 331.63px;
+}
+
+.third p{
+    color: white;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    line-height: 1.2;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+
+.third h2{
+    font-size: 1.875rem;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-top: 10px;
+}
+
+.third img{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+#country{
+    height: 40px;
+    width: 141.04p;
+    margin-top: 40px;
+}
+
+/*ceci est la fin de la deusieme partie*/
+
+/*ceci est le debut de la troisieme partie*/
+
+.para{
+    display: flex;
+    justify-content: space-around;
+    height:117px ;
+    width: 1015px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.para h1{
+    float: left;
+    font-size: 1.625em;
+    color: #00b39b;
+    font-family:"Work Sans,Arial,sans-serif";
+    font-weight: 300; 
+    margin-left: 70px;
+}
+
+.logo-list{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0;
+    width: 67%;
+}
+
+.logo-list li{
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+/*ceci est la fin de la troisieme partie*/
+
+/*ceci est le debut de la quatrieme partie*/
+
+#header{
+    background: #e5faf8;
+    height: 600px;
+    width: 1268.8px;
+    display: flex;
+}
+
+.quatrieme{
+    width:497.5px;
+    height:201.2; 
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.quatrieme h1{
+    color: #00b39b;
+    font-family:"Work Sans,Arial,sans-serif";
+    font-weight: 300; 
+    height:88.4px;
+    width: 477.5px;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    margin: .67em 0;
+}
+
+.quatrieme p{
+    font-size: .875em;
+    line-height: 1.7142857143;
+    width:415px;
+    height: 48;
+}
+
+.the-worlda{
+    height: 497.5px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.the-worldb{
+    height: 497.5px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.identif1{
+    text-align: center;
+    border-radius: 10px;
+    height:270px;
+    width:248.75px ;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.identif1 h2{
+    color:#00b39b ;
+    text-align:center;
+    font-size: 1.17em;
+    margin-top: 20px;
+}
+
+.identif1 img{
+    margin-top: 20px;
+}
+
+/*ceci est la fin de la quatrieme partie*/
+
+/*ceci est le debut de la cinquieme partie*/
+
+.partiecinq{
+
+}
+
+.partiecinq h1{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: 'Work Sans,Arial,sans-serif';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.partiecinq p{
+    line-height: 1.7142857143;
+    margin: 1.6em 0;
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+
+/*ceci est la fin de la cinquieme partie*/
+
+
+/*ceci est le debut de la sixieme partie*/
+
+
+#part-inf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px; 
+    width: 309px;
+    margin-top: 10px;
+     padding: 1.1111111111em;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    
+    
+}
+
+#partA{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#part-supp{
+    margin-right: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.partsix{
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: #3d83df;
+    width:100px ;
+    padding: 8px 0px;
+    border-radius: 4px;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+/* ceci est la fin de la sixieme partie*/
